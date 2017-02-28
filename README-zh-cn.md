@@ -1,4 +1,5 @@
 # 关于这个简洁明快的博客主题 🤘🤘🤘
+声明：本博客程序来自http://gaohaoyang.github.io，感谢他开源并提供程序。谢谢。
 
 [![GitHub stars](https://img.shields.io/github/stars/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/network)
@@ -8,7 +9,7 @@
 
 随着 jekyll 的版本升级，同时我也想重构我的旧版博客主题，因此在这个月对博客进行了重构加改版，这个仓库存放我的新博客，并且我也会一直使用这个主题。目前基本改版完成，后续可能还会有些细节上的修补。
 
-**博客访问地址：[http://gaohaoyang.github.io/](http://gaohaoyang.github.io/)**。若您喜欢这个新的博客主题，请给我个star以示鼓励吧，欢迎大家使用。
+**博客访问地址：[http://zwssd.github.io/](http://zwssd.github.io/)**。若您喜欢这个新的博客主题，请给我个star以示鼓励吧，欢迎大家使用。
 
 ## 目录
 
@@ -180,7 +181,7 @@ gem install jekyll
 title: HyG
 brief-intro: Front-end Dev Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gaohaoyang.github.io" # the base hostname & protocol for your site
+url: "http://zwssd.github.io" # the base hostname & protocol for your site
 ```
 
 #### 链接信息
@@ -189,16 +190,10 @@ url: "http://gaohaoyang.github.io" # the base hostname & protocol for your site
 
 ```yml
 # other links
-twitter_username: gaohaoyang126
-facebook_username: gaohaoyang.water
-github_username:  Gaohaoyang
-email: gaohaoyang126@126.com
-weibo_username: 3115521wh
-zhihu_username: gaohaoyang
-linkedIn_username: gaohaoyang
-dribbble_username:
+github_username: zwssd
+email: zwssd1980@163.com
 
-description_footer: 本站记录我前端之旅的沿途风景！
+description_footer: 本站记录我后端之旅的沿途风景！
 ```
 
 #### 评论信息
