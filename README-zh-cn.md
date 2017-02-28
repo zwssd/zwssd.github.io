@@ -94,7 +94,7 @@
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: #xxx
+duoshuo_shortname: #zwssd(用QQ登录的)
 disqus_shortname: xxx
 ```
 
