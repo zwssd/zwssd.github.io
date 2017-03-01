@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "beryl桌面使用方法"
-date:   2007-05-19 08:48:51
+title:  "Ubuntu的beryl设置"
+date:   2007-05-19 11:14:23
 categories: 默认分类
 tags:
 ---
@@ -9,6 +9,23 @@ tags:
 * content
 {:toc}
 
+Ubuntu 的 beryl设置
+感觉Compiz可设置的特效太少了(可能是设置软件没安装的问题吧)，还是习惯用beryl。
+feisty下安装beryl很方便：
+$ sudo apt-get -y install beryl beryl-manager emerald-themes
+安装完在 系统--首选项--会话 中加入beryl-manager 即可。
+下次开机会默认启用Beryl。要选择Beryl或Compiz，可右键单击任务栏Beryl图标，在"选择窗口管理器"中选择。
+升级到beryl0.3beta版 （以前edgy时用的就是它，升级到feisty当然不会落下它）。
+添加SVN源 ( 需要用edgy源，feisty的不行 )
+$ sudo gedit /etc/apt/sources.list
+往里面添加：
+deb http://download.tuxfamily.org/3v1deb edgy beryl-svn
+保存后，执行：
+$ wget http://download.tuxfamily.org/3v1deb/DD800CD9.gpg -O- | sudo apt-key add -
+$ sudo apt-get update
+过几分钟 更新管理器 就会提示有更新。更新完重新登陆下就行了。
+另：sudo apt-get install beryl-plugins-unsupported    进行安装其他的一些效果，如下雪，很不错的！
+from：linuxdesktop.cn
 beryl 桌面使用方法
 加入源：
 sudo gedit /etc/apt/sources.list
