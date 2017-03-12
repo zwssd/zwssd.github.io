@@ -23,4 +23,5 @@ tags: opensuse
 
     最后愉快的去更新系统吧 >> sudo zypper up
 
+
     sudo zypper in filezilla gvim fcitx fcitx-table-cn-wubi-pinyin chromium chromium-pepper-flash vlc qbittorrent git gitg
