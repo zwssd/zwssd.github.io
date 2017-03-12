@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "安装 openSUSE Leap 42.2 之后要做的事"
-date:   2017-03-12 09:27:00
+date:   2017-03-11 09:27:00
 categories: linux
 tags: opensuse
 ---
