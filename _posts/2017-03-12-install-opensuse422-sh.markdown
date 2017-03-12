@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "我终于又找到你了，“情感交流天地” "
-date:   2005-07-04 17:13:23
-categories: 默认分类
-tags: 情感
+title:  "安装 openSUSE Leap 42.2 之后要做的事"
+date:   20017-03-12 09:27:00
+categories: linux
+tags: opensuse
 ---
 
 * content
