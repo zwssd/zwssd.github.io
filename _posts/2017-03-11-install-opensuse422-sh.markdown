@@ -27,7 +27,9 @@ tags: opensuse
     sudo zypper in filezilla gvim fcitx fcitx-table-cn-wubi-pinyin chromium chromium-pepper-flash vlc qbittorrent git gitg
     
 debian 8.7
+
 yuan
+
     deb http://mirrors.aliyun.com/debian jessie main contrib non-free
     deb-src http://mirrors.aliyun.com/debian jessie main contrib non-free
 
@@ -38,7 +40,9 @@ yuan
     deb-src http://mirrors.aliyun.com/debian-security jessie/updates main contrib non-free
     
 update:
+
     sudo apt-get update
     sudo apt-get upgrade
-    
+
+
 sudo apt-get install filezilla vim-gtk fcitx fcitx-table-wbpy chromium vlc qbittorrent git gitg
