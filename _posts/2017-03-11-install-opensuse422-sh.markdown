@@ -11,7 +11,9 @@ tags: opensuse
 
  阿里云源 http://mirrors.aliyun.com/
 
-    首先禁用系统的源 >> sudo zypper mr -da\n\n\n\n
+    首先禁用系统的源 >> sudo zypper mr -da
+
+"\n\n\n\n"
 
 
     添加源:
