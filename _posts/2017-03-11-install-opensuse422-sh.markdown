@@ -12,6 +12,7 @@ tags: opensuse
  阿里云源 http://mirrors.aliyun.com/
 
     首先禁用系统的源 >> sudo zypper mr -da
+\n\n\n
 
     添加源:
         >>sudo zypper addrepo -f http://mirrors.aliyun.com/opensuse/update/leap/42.2/non-oss/ openSUSE-42.2-Update-Non-Oss
