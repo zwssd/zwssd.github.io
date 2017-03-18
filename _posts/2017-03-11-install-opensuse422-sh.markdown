@@ -13,7 +13,7 @@ tags: opensuse
 
     首先禁用系统的源 >> sudo zypper mr -da
 
-"\n\n\n\n"
+<!--excerpt-->
 
 
     添加源:
