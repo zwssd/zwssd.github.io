@@ -49,3 +49,19 @@ update:
 
 
 sudo apt-get install filezilla vim-gtk fcitx fcitx-table-wbpy chromium vlc qbittorrent git gitg
+
+安装下面3个包
+
+# apt-get install firmware-linux-nonfree libgl1-mesa-dri xserver-xorg-video-ati
+
+C.下载并安装Debian WiKi说明的驱动包
+
+# dpkg -i /home/user/Downloads/xserver-xorg-video-radeon_7.5.0-1_amd64.deb
+
+D.相关依赖（我并不确定是否要安装这些，Debian WiKi说上一步的DEB包和下面的包有依赖关系，但是我没安装也可以）
+
+如果你的驱动不正常，可以试着安装一下下面的依赖
+
+# apt-get install libc6 libdrm-radeon1 libpciaccess0 firmware-linux xserver-xorg-core xorg-video-abi-18 libudev1
+
+E.重启系统
