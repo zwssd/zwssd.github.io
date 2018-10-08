@@ -9,8 +9,12 @@ type: page
 * content
 {:toc}
 
-## 关于我
+## 打赏本站
+欢迎打赏！我白天是个程序员，晚上就是个有抱负的程序猿。这是我的博客。我住在天朝的帝都，有条叫做Guppy的鱼。
 
+微信扫码赞助本站！
+
+![img]({{site.url}}/images/weixinzan_qrcode.png)
 ## 联系我
 
 * GitHub：[zwssd](https://github.com/zwssd)
