@@ -17,6 +17,7 @@ import socket, asyncore
 LOCAL = '127.0.0.1'
 PORT = 6666 #端口
 class EndSession(Exception):
+<!--excerpt-->
     """
     自定义会话结束时的异常
     """

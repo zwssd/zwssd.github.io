@@ -12,6 +12,7 @@ tags:
 #!/bin/python
 # -*- coding: utf-8 -*-
 #获得海盗湾的种子地址
+<!--excerpt-->
 import pycurl
 import StringIO
 from bs4 import BeautifulSoup
