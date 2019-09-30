@@ -15,7 +15,7 @@ permalink: /:year/:month/:day/:title/
 
 # other links
 github_username:  zwssd
-email: zwssd1980@163.com
+email: 349705141@qq.com
 dribbble_username:
 
 description_footer: 阿弥陀佛！
@@ -52,4 +52,4 @@ excerpt_separator: "<!--excerpt-->"
 
 # paginate
 gems: [jekyll-paginate]
-paginate: 6
+paginate: 10 

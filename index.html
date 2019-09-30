@@ -4,8 +4,8 @@ layout: default
 
 <div class="page clearfix" index>
     <div class="left">
-        <h1>Welcome to Zwssd Blog!</h1>
-        <small>阿弥陀佛！</small>
+        <h1>欢迎来的大伟的技术栈！</h1>
+        <small>记录的文章都在这里，大家各取所需！</small>
         <hr>
         <ul>
             {% for post in paginator.posts %}
@@ -37,7 +37,7 @@ layout: default
                     {{post.excerpt}}
                 </div>
                 <div class="read-all">
-                    <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read All</a>
+                    <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>查看详细</a>
                 </div>
                 <hr>
               </li>
@@ -56,6 +56,7 @@ layout: default
             <span class="previous disable"><i class="fa fa-angle-left"></i></span>
           {% endif %}
           <span class="page_number ">{{ paginator.page }}/{{ paginator.total_pages }}</span>
+          <span class="page_number "><a href="">{{ paginator.page+1 }}</a></span>
           {% if paginator.next_page %}
             <a href="{{ paginator.next_page_path }}" class="next"><i class="fa fa-angle-right"></i></a>
             <a href="/page{{ paginator.total_pages }}" class="next"><i class="fa fa-angle-double-right"></i></a>
@@ -71,7 +72,7 @@ layout: default
             <div class="side">
                 <div>
                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                    Recent Posts
+                    最新帖子
                 </div>
                 <ul class="content-ul" recent>
                     {% for post in site.posts offset: 0 limit: 10  %}
@@ -84,7 +85,7 @@ layout: default
             <div class="side ">
                 <div>
                     <i class="fa fa-th-list"></i>
-                    Categories
+                    分类
                 </div>
                 <ul class="content-ul" cate>
                     {% for category in site.categories %}
@@ -103,7 +104,7 @@ layout: default
             <div class="side">
                 <div>
                     <i class="fa fa-tags"></i>
-                    Tags
+                    标签
                 </div>
                 <div class="tags-cloud">
                     {% assign first = site.tags.first %}
@@ -144,15 +145,17 @@ layout: default
                 </div>
             </div>
 
-            <!-- <div class="side">
+            <div class="side">
                 <div>
                     <i class="fa fa-external-link"></i>
-                    Links
+                    友情链接
                 </div>
                 <ul  class="content-ul">
-
+                    <a href="http://www.shennongsoftware.com" style="font-size: 12pt; color: #FF8000;">神农软件</a>
+                    <a href="http://www.mall6v.com" style="font-size: 12pt; color: #FF8000;">神农商城系统</a>
+                    <a href="https://github.com/zwssd" style="font-size: 12pt; color: #FF8000;">github</a>
                 </ul>
-            </div> -->
+            </div>
         </div>
     </div>
 </div>
