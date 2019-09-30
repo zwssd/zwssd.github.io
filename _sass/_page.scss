@@ -140,6 +140,13 @@
                 padding-left: 20px;
             }
         }
+        .content-ul[recent]{
+            padding-bottom: 16px;
+            li{
+                color:#aaa;
+                font-size: 14px;
+            }
+        }
     }
 }
 @media screen and (max-width:1200px) and (min-width: 770px) {
