@@ -37,20 +37,6 @@ type: page
         <div class="wrap">
 
             <!-- Content -->
-            <div class="side content">
-                <div>
-                    Content
-                </div>
-                <ul id="content-side" class="content-ul">
-                    {% for category in site.categories%}
-                        <li>
-                            <a class="scroll" href="#{{ category | first }}">
-                                {{ category | first }} ({{ category | last | size }})
-                            </a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
             <div class="side">
                     <div>
                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i>

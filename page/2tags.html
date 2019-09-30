@@ -40,21 +40,6 @@ type: page
         <div class="wrap">
 
             <!-- Content -->
-            <div class="side content">
-                <div>
-                    Content
-                </div>
-                <ul id="content-side" class="content-ul">
-                    {% for tag in sortedtags %}
-                    <li>
-                        <a class="scroll" href="#{{ tag }}">
-                            {{ tag }} ({{ site.tags[tag].size }})
-                        </a>
-                    </li>
-                    {% endfor %}
-
-                </ul>
-            </div>
             <div class="side">
                     <div>
                         <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
